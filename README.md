@@ -1,5 +1,7 @@
-# OnnxInpaintingUI
-UI for ONNX based Stable Diffusion Inpainting
+# Onnx Inpainting UI
+UI for Stable Diffusion Inpainting using Onnx with DirectML
+
+![ui_sample](https://user-images.githubusercontent.com/640619/203019893-6f9f9e45-38d5-4477-a6c2-8f789a7b37f6.png)
 
 ## Requirements
 - Python 3.10 or earlier installed (https://www.python.org/downloads/)
@@ -30,3 +32,6 @@ To exit the virtual environment, close the command prompt. To start the virtual 
 sd_env\scripts\activate
 python inpainting_ui.py
 ```
+
+Note:
+- stable-diffusion-inpainting uses 5.10 GB of disk space
