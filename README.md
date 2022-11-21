@@ -27,7 +27,9 @@ pip install protobuf==3.20.1
 ```
 To exit the virtual environment, close the command prompt. To start the virtual environment go to the scripts folder in sd_env and open a command prompt. Type activate and the virtual environment will activate.
 
-## Running OnnxInpaintingUI
+## Running Onnx Inpainting UI
+Loads runwayml/stable-diffusion-inpainting from Huggingface website into local cache.
+
 ```bash
 sd_env\scripts\activate
 python inpainting_ui.py
@@ -35,3 +37,13 @@ python inpainting_ui.py
 
 Note:
 - stable-diffusion-inpainting uses 5.10 GB of disk space
+
+## Running Onnx Inpainting Legacy UI
+Loads runwayml/stable-diffusion-v1-5 from Huggingface website into local cache.
+
+Inpainting Legacy is used for loading non inpainting trained models
+
+```bash
+sd_env\scripts\activate
+python inpainting_legacy_ui.py
+```
