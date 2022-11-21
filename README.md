@@ -47,3 +47,6 @@ Inpainting Legacy is used for loading non inpainting trained models
 sd_env\scripts\activate
 python inpainting_legacy_ui.py
 ```
+
+Note:
+- stable-diffusion-v1-5 uses 5.10 GB of disk space
